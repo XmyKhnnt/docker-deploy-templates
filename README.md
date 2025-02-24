@@ -4,6 +4,8 @@ This project provides Docker templates for applications built with different pro
 
 - Flask
 - PHP
+- Django
+- Vue
 
 ## About
 
@@ -13,6 +15,8 @@ This repository contains Docker templates to help you quickly deploy application
 
 - Flask
 - PHP
+- Django
+- Vue
 
 ## Getting Started
 
