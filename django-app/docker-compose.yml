@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  app:
+    build: .  
+    container_name: django-app 
+    ports:
+      - "8004:8004"  
+    volumes:
+      - .:/django-app  # Mount the current directory to the container's /app directory, enabling live updates
+    environment:
+      - ENV=development  # You can set environment variables if needed
